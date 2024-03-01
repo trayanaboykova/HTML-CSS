@@ -1,0 +1,150 @@
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+body {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.left-box,
+.right-box {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    margin: 4vh 0.7rem 5vh;
+    border-radius: 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.middle-box {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    margin: 0vh 0.7rem 3vh;
+    border-radius: 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+
+.left-box h2,
+.middle-box h2,
+.right-box h2 {
+    font-weight: 200;
+    margin-left: 1px;
+    margin-top: 0;
+    text-align: left;
+    font-size: smaller;
+    display: inline-block;
+}
+
+.left-box p,
+.right-box p,
+.middle-box p {
+    font-weight: 200;
+    font-size: 0.3rem;
+    margin-left: 1px;
+    margin-bottom: 0;
+    text-align: left;
+    display: inline-block;
+    overflow-y: auto;
+}
+
+.left-box .price,
+.right-box .price,
+.middle-box .price {
+    font-weight: 200;
+    font-size: 1.8rem;
+    margin-left: 1px;
+    margin-bottom: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.left-box .price span,
+.right-box .price span,
+.middle-box .price span {
+    font-size: 0.5rem;
+    font-weight: 200;
+    margin-left: 1px;
+    display: inline-block;
+
+}
+
+
+.left-box .features,
+.right-box .features,
+.middle-box .features {
+    
+    height: 80px;
+    overflow-y: auto;
+    padding-left: 0;
+    text-align: left;
+    margin-top: 0;
+}
+
+.left-box .features li,
+.right-box .features li,
+.middle-box .features li{
+    font-size: 0.4rem;
+    font-weight: 200;
+    display:block;  
+    text-align: left;
+    margin-top: 0.2rem;
+   
+}
+
+.left-box .features li i,
+.right-box .features li i,
+.middle-box .features li i {
+    font-size: 0.4rem;
+    margin-right: 0.2rem;
+}
+
+
+.left-box .button,
+.right-box .button,
+.middle-box .button {
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 0.4rem;
+    text-transform:none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 0.1rem;
+    align-self:flex-end;
+    text-align: left;
+    margin-right: auto;
+}

@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css";
+
+html {
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 1.15;
+}
+body {
+  margin: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: undefined;
+  letter-spacing: normal;
+  line-height: 1.3;
+  color: #191919ff;
+  background-color: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+img {
+  display: block;
+}
+.button {
+  color: #0f1722ff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border-color: #0f1722ff;
+  border-width: 0px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.input {
+  color: #0f1722ff;
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: #0f1722ff;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.textarea {
+  color: #0f1722ff;
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: #0f1722ff;
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.section-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 96px;
+  flex-direction: column;
+  padding-bottom: 96px;
+}
+.max-content-container {
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  max-width: 988px;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-primary {
+  color: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  line-height: 1;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #914332ff;
+}
+.button-primary:hover {
+  color: #191919ff;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.button-lg {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+.button-md {
+  padding-top: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+}
+.button-secondary {
+  color: #191919;
+  cursor: pointer;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  line-height: 1;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.button-secondary:hover {
+ 
+    color: #ffffff;
+    background-color: #914332ff;
+    }
+    
+    @media only screen and (max-width: 600px) {
+    .home-max-width {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+    .navigation-max-width {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    
+    .home-text-container {
+    margin-bottom: 32px;
+    }
+    
+    .home-text01 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 8px;
+    }
+    
+    .home-text02 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    }
+    
+    .home-tab-selector-header {
+    margin-bottom: 24px;
+    }
+    
+    .home-tab-selector-cards-container {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 16px;
+    }
+    
+    .home-max-width1 {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .home-text-container1 {
+    width: 100%;
+    margin-bottom: 16px;
+    }
+    
+    .home-image {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+    height: auto;
+    }
+    
+    .home-step {
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+    }
+    
+    .home-text10 {
+    margin-right: 16px;
+    }
+    
+    .home-container1 {
+    margin-bottom: 32px;
+    }
+    
+    .home-top-part {
+    flex-direction: column;
+    }
+    
+    .home-links-container {
+    width: 100%;
+    margin-bottom: 16px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .home-product-container {
+    margin-bottom: 16px;
+    width: 100%;
+    }
+    
+    .home-navigate-container {
+    margin-bottom: 16px;
+    width: 100%;
+    }
+    
+    .home-contact-container {
+    margin-bottom: 16px;
+    width: 100%;
+    }
+    
+    .home-subscribe-container {
+    width: 100%;
+    }
+    
+    .home-textinput {
+    margin-bottom: 16px;
+    }
+    }
