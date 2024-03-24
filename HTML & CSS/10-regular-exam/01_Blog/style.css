@@ -8,78 +8,54 @@ background color for text under images: #66545e
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f6e0b5;
-  color: #000;
   display: flex;
   align-items: flex-start;
-  
-
+  overflow: hidden; 
+  padding: 0.9em;
+  box-sizing: content-box;
+  position: relative;
 }
 
-.first-row, 
-.second-row,
+.first-row,
+.second-row, 
 .categories {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 10px;
   flex-wrap: wrap;
+  justify-content: space-between;
+  transform: translate(-5%, -5%);
+  
 }
 
-.music-reviews {
-  order: 1;
-}
-
-.celebrity-interviews {
-  order: 2;
-}
-
-.tv-show {
-  order: 3;
-}
-
-.arts-culture {
-  order: 4;
-}
 
 .music-reviews,
 .celebrity-interviews,
 .tv-show,
 .arts-culture {
   display: flex;
-  margin-bottom: 0.6rem;
-  position: relative;
-  margin: 0em 0 0.7em 0;;
-  top: 0;
-  left: 0;
+  margin: 0.5em 0.5em 0.5em 0;
+  padding: 0;
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+  border-radius: 6px;
+  max-height: fit-content;
+  max-width: fit-content;
+  transform: translate(10%);
 }
 
-
-.music-reviews img {
-  display:flex;
-  width: 100%;
-  height: 90%;
-  border-radius: 6px;
-}
-
-.celebrity-interviews img{
-  display:flex;
-  width: 100%;
-  height: 85%;
-  border-radius: 6px;
-}
-
-.tv-show img { 
-  display:flex;
-  width: 100%;
-  height: 90%;
-  border-radius: 6px;
-} 
-
+.music-reviews img,
+.celebrity-interviews img, 
+.tv-show img, 
 .arts-culture img {
   display:flex;
   width: 100%;
-  height: 90%;
-  border-radius: 6px;
+  height: 87%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
+
 
 .music-reviews h2,
 .celebrity-interviews h2,
@@ -96,31 +72,35 @@ body {
   left: 0;
   right: 0;
   border-radius: 0px 0px 5px 5px;
-  font-size: smaller;
+  font-size: 85%;
+  font-weight: normal;
 }
 
 
 .other-categories {
   display: inline-block;
-  margin-left: 0.5rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  color: #63515c;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: hsl(323, 10%, 35%);
+  transform: translate(15%);
 }
 
 
 .other-categories ul {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .other-categories li {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
+  margin: 0;
+  padding: 0;
   color: #63515c;
   display: flex;
   align-items: center;
   font-size: smaller;
+  line-height: 1.4em;
 }
 
 .other-categories li i {
