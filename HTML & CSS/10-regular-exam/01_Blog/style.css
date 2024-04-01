@@ -67,10 +67,7 @@ img {
 }
 
 
-.music-reviews h2,
-.celebrity-interviews h2,
-.tv-show h2,
-.arts-culture h2 {
+h2 {
   margin: 0;
   padding: 0;
   text-align: start;
