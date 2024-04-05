@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "PT Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif";
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-section.banner{
+    background-color: #00052F;
+}
+
+.site-section.banner .container {
+    border: 2px solid black;
+    color: #fff;
+}
+
+.site-section.banner h2{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav li {
+    list-style: none outside;
+}
+
+
+
+
+
