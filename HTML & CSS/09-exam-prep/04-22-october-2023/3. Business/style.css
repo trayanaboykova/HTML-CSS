@@ -43,15 +43,15 @@ body {
 }
 
 .site-section.banner h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: normal;
     line-height: 1.26;
     margin-bottom: 0.5em;
 }
 
 .site-section.banner p {
-    font-size: 1.1em;
-    max-width: 39.5rem;
+    font-size: 1em;
+    max-width: 33rem;
 }
 
 .site-section {
@@ -66,6 +66,7 @@ body {
 
 .site-header nav ul {
     display: flex;
+    font-size: 18px;
 }
 
 .site-header nav li {
@@ -80,8 +81,8 @@ body {
 
 .site-title a {
     display: block;
-    width: 130px;
-    height: 110px;
+    width: 100px;
+    height: 80px;
     overflow: hidden;
     text-indent: -200vw;
     background-image: url('images/logo.webp');
@@ -93,6 +94,29 @@ body {
 .site-section.columns {
     border-bottom: 2px solid #ccc;
     background-color: white;
+    padding: 5em;
+}
+
+.site-section.columns h2 {
+    font-size: 2.1em;
+    font-weight:normal;
+    columns: #37282B;
+}
+
+.site-section.columns p {
+    font-size: 0.8em;
+    padding: 0.5em 2em 1em 0;
+    margin-bottom: 2em;
+    columns: #37282B;
+}
+
+.site-section.columns .button {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #B0825C;
+    border: 2px solid #B0825C;
+    padding: 0.5em 1.2em; 
 }
 
 .site-section.sponsors,
@@ -101,25 +125,33 @@ body {
     text-align: center;
 }
 
-.column-container {
-    display: flex;
-    gap: 2em;
+.site-section.sponsors {
+    padding-bottom: 0;
 }
 
-.site-footer {
-    background-color: #171720;
-    color: #B3A6A8;
+.site-section.partners {
+    padding-top: 0.5em;
+    padding-bottom: 3.5em;
+} 
+
+.site-section.sponsors h2,
+.site-section.partners h2 {
+    font-size: 2.1em;
+    font-weight:normal;
+    color: #B0825C;
 }
 
-.copyright-site-footer {
-    border-top: 1px solid rgb(255, 255, 255, 0.3);
-    background-color: #171720;
-    color: #B3A6A8;
+.site-section.sponsors p,
+.site-section.partners p {
+    font-size: 0.8em;
+    color: #716567;
 }
 
 .sponsors {
     display: flex;
     gap: 2em;
+    justify-content: center;
+    padding: 2em 0;
 }
 
 .sponsors li {
@@ -139,4 +171,37 @@ body {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.column-container {
+    display: flex;
+    gap: 2em;
+}
+
+.site-footer {
+    background-color: #171720;
+    color: #B3A6A8;
+}
+
+.site-footer h4 {
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-bottom: 1.2em;
+}
+
+.site-footer li {
+    font-size: 0.7em;
+    font-weight: lighter;
+    text-transform: uppercase;
+    list-style: none outside;
+    margin: 1em 3em 1.8em 0;
+}
+
+.copyright-site-footer {
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+    background-color: #171720;
+    color: #B3A6A8;
+    font-size: 0.7em;
+    padding: 1em;
 }
