@@ -6,8 +6,9 @@ img {
 
 body {
     background-image: url(image/fitness-main.jpg);
-    background-size: contain;
-    background-position: center -150px;
+    background-size:contain;
+    background-position: center -210px;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -18,6 +19,10 @@ body {
 .section-top-bar {
     background: #D01919;
     color: white;
+}
+
+.section-top-bar .container {
+    max-width: 1450px;
 }
 
 .section-top-bar .container {
