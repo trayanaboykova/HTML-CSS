@@ -1,3 +1,15 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(image/fitness-main.jpg);
+    background-size: contain;
+    background-position: center -150px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,8 +48,17 @@
 }
 
 .section-site-header {
-    background-color: #000;
     color: white;
+}
+
+.section-site-header .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.section-site-header .site-title {
+    display: none;
 }
 
 .section-site-header a {
@@ -48,6 +69,11 @@
     background: #EFEFEF;
 }
 
-.section-footer {
+.section-site-footer {
     background: #D01919;
+}
+
+.section-site-footer p {
+    text-align: center;
+    padding: 0.5em;
 }
