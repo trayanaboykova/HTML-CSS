@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+.section-columns h3 {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
 .section-columns h3 span {
     display: block;
     margin: 1em auto;
@@ -22,10 +28,16 @@
 .section-columns .section-content article {
     flex: 1 1 30%;
     text-align: center;
+    padding: 0 5em;
 }
 
 .section-features {
     background: white;
+    padding-bottom: 2em;
+}
+
+.section-features .section-content {
+    padding: 0 6em;
 }
 
 .section-features img {
@@ -33,8 +45,31 @@
     margin: 0 auto;
 }
 
-.section-features h4,
+.section-features h4 {
+    color: #D31919;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
 .section-coaches h5 {
     color: #D31919;
 }
+
+.section-coaches {
+    padding-bottom: 2em;
+}
+
+.section-coaches .media {
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.section-coaches p {
+    color: #A6A1A5;
+    padding: 0 0.5em;
+    margin-top: 1em;
+}
+
+
 

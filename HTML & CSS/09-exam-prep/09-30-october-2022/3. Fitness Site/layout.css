@@ -21,6 +21,10 @@ body {
     color: white;
 }
 
+.section-site-header .container {
+    max-width: initial;
+}
+
 .section-top-bar .container {
     max-width: 1450px;
 }
