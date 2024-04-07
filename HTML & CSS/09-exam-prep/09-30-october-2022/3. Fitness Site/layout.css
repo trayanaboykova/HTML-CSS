@@ -19,6 +19,7 @@ body {
 .section-top-bar {
     background: #D01919;
     color: white;
+    padding: 0.5em;
 }
 
 .section-site-header .container {
