@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+
+/* •	Use both fonts (Karla and Cormorant Infant). Examine the screenshot carefully and decide where to use each of the fonts.
+o	https://fonts.googleapis.com/css2?family=Karla&display=swap
+	Font-size – 18px
+o	https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap
+	Font-size for big title – 90px
+	Font-size for other text – 16px */
+
+html {
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font: 16px/1.5 "Cormorant Infant", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(images/poster.jpg);
+    background-size: cover;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-header,
+.banner {
+    max-width: initial;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+
+.site-header nav ul {
+    display: flex;
+    font-size: 18px;
+}
+
+.site-header li {
+    list-style: none outside;
+    padding: 0 1.5em;
+    font-style: bold;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-title a {
+    display: block;
+    width: 90px;
+    height: 75px;
+    overflow: hidden;
+    text-indent: 100vw;
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 3em;
+}
+
+.banner {
+    padding-bottom: 10em;
+    text-align: center;
+    color: white;
+}
+
+.banner .container h1 {
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 1em;
+}
+
+.site-section.banner p {
+    font-size: 18px;
+}
+
+.testimonial {
+    background: #F8F0E9;
+    display: flex;
+}
+
+.testimonial .container {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
+}
+
+
+.testimonial .container p {
+    font-size: 18px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+    color: #352B2A;
+    justify-content: center;
+}
+
+.testimonial .container h3 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: start;
+    color: #352B2A;
+    justify-content: center;
+    font-style: italic;
+}
+
+.support {
+    background: #E14747;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.support .container {
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+}
+
+.support .container .text-support {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.hero-section {
+    background: #F8F0E9;
+    display: flex;
+}
+
+.media img {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
+}
+
+.hero-section .section-content {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section .section-content article {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 0 5em;
+}
+
+.hero-section .container p {
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 5em;
+}
+
+.hero-section h2 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1;
+    color: #352B2A;
+}
+
+.section-content p {
+    font-size: 15px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 0;
+
+}
+
+.button-read {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    background-color: #fff;
+    padding: 0.5em 1.2em;
+    margin: 1em; 
+}
+
+.button-all {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 0.5em;
+    background-color: #fff;
+    padding: 0.5em 1.2em; 
+}
+
+
+.local-guide {
+    background: #E14747;
+    display: flex;
+}
+
+footer {
+    background: #352B2A;
+}
