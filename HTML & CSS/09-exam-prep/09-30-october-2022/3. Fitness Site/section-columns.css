@@ -7,16 +7,16 @@
 }
 
 .section-columns h3 {
-    font-size: 2.5em;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    font-size: 2em;
+    margin-top: 0em;
+    margin-bottom: 1emem;
 }
 
 .section-columns h3 span {
     display: block;
     margin: 1em auto;
-    width: 6ch;
-    height: 2px;
+    width: 3ch;
+    height: 2.1px;
     background-color: #D31919;
 }
 
@@ -67,7 +67,7 @@
 
 .section-coaches p {
     color: #A6A1A5;
-    padding: 0 0.5em;
+    padding: 0 2em;
     margin-top: 1em;
 }
 
