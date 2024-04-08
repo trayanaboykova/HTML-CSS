@@ -1,0 +1,147 @@
+@media (max-width: 600px) {
+
+
+    .parallax-window {
+        height: 130px;
+    }
+
+    .placeholder {
+        height: 165px;
+    }
+
+    .tm-header-inner {
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .tm-site-logo {
+        width: 65px;
+        margin-right: 0px;
+        margin-bottom: 2px;
+    }
+
+    .tm-site-title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .tm-site-description {
+        font-size: 0.9rem;
+    }
+
+    .tm-nav {
+        font-size: 0.9rem;
+    }
+
+    .tm-section-title {
+        margin: 0 2em 1em 2em;
+    }
+
+    .tm-welcome-section {
+        margin: 40px auto;
+    }
+
+    .col-12 .text-center {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .img-fluid {
+        max-width: 300px;
+    }
+
+    .tm-gallery-img {
+        margin-bottom: 10px;
+    }
+
+    .tm-paging-item {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .tm-gallery {
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .tm-gallery-item {
+        max-width: 300px;
+    }
+
+    h4.tm-gallery-title {
+        font-size: 1.5em;
+        text-align: auto;
+        text-indent: 1.5em;
+        text-wrap: nowrap;
+    }
+
+    p.tm-gallery-description {
+        font-size: 14.1px;
+        line-height: 1.8;
+        text-align: start;
+        margin: 0em;
+        padding-bottom: 1em;
+    }
+
+    .tm-gallery-price {
+        text-align: start;
+        margin-bottom: 2em;
+        font-size: 1.4em;
+    }
+
+    .tm-cta-section {
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .col-md-6 {
+        max-width: 400px;
+    }
+
+    .tm-description-figure {
+        max-width: 400px;
+    }
+
+    .tm-description-figure img {
+        max-width: 400px;
+        padding-right: 2.5em;
+        padding-left: 1em;
+    }
+
+
+    .tm-description-box h4 {
+        text-align: center;
+        text-indent: 0.5em;
+    }
+
+    .tm-description-box p {
+        text-align: start;
+        display: block;
+        margin: 0 auto;
+        padding: 0 2em 1em 2em;
+        max-width: 100%;
+        overflow: hidden;
+        word-wrap: break-word;
+        margin-bottom: 1em;
+    }
+
+    .tm-right {
+        margin-right: 0.5em;
+    }
+
+    .tm-btn {
+        padding: 8px 25px;
+    }
+
+    .tm-footer {
+        margin-top: 1em;
+    }
+
+    /* * {
+        border: 1px solid red;
+    } */
+
+    
+}
