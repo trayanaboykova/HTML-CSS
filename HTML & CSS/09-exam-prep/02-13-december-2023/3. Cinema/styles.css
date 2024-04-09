@@ -8,9 +8,71 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid pink;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .container {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+
+
+
+
+
+.section-header {
+    background: #fff;
+}
+
+.section-header .container {
+    display: flex;
+    justify-content: space-between;
+   padding: 1em;
+}
+
+
+
+
+
+
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li,
+.main-nav a {
+    display: block;
+}
+
+.main-nav ul li:first-child  {
+    color: #fff;
+    background-color: #56DBB1;
+}
+
+.main-nav ul li {
+    color: #696969;
+    background-color: #ECECEC;
+}
+
+.main-nav ul li:first-child a {
+    color: #fff;
+}
+
+.main-nav a {
+    color: #696969;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+
+
+
+
