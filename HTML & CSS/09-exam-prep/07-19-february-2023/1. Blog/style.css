@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 'Montserrat', sans-serif;
+}
+
+body {
+    padding: 2em;
+    margin: 1em;
+    margin-left: 4em;
+    background-color: #F6E0B5;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-content {
+    display: flex;
+    gap: 3em;
+}
+
+.section-content article,
+.section-content article .media {
+    display: block;
+    overflow: hidden;
+}
+
+.section-content article {
+    flex: 1 1 30%;
+}
+
+.section-content h2 {
+    background-color: #66545E;
+    color: #fff;
+    text-indent: 0.2em;
+}
+
+.left-side .movie-reviews,
+.middle-side .celebrity-interviews {
+    margin-bottom: 1.5em;
+}
+
+.movie-reviews,
+.celebrity-interviews,
+.tv-show-guides,
+.arts-and-culture {
+    border: 2px solid #000;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.section-content article .media {
+    height: 260px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-content article .media img {
+    width: auto;
+    height: 100%;
+    object-fit: 100%;
+}
+
+.categories {
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    color: #6F5862;
+    text-decoration: none;
+}
+
+.categories h4 {
+    font-size: 26px;
+    padding-bottom: 1em;
+}
+
+.categories ul li {
+    font-size: 25px;
+    line-height: 2.3em;
+}
