@@ -8,7 +8,7 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 img {
@@ -34,8 +34,28 @@ img {
 .section-header .container {
     display: flex;
     justify-content: space-between;
-   padding: 1em;
+    padding-top: 15px;
+    padding-bottom: 24px;
 }
+
+.section-header .container h1 {
+    font-size: 35px;
+    font-weight: normal;
+    border-right: 3px solid #DBDBDB;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1em;
+}
+
+.section-header .container h5 {
+    margin-right: 38em;
+    margin-top: 3em;
+    color: #808090;
+    letter-spacing: 0.2em;
+}
+
+
 
 
 
@@ -45,6 +65,7 @@ img {
 
 .main-nav ul {
     display: flex;
+    gap: 0.1em;
 }
 
 .main-nav li,
@@ -52,8 +73,7 @@ img {
     display: block;
 }
 
-.main-nav ul li:first-child  {
-    color: #fff;
+.main-nav ul li:first-child {
     background-color: #56DBB1;
 }
 
@@ -63,7 +83,7 @@ img {
 }
 
 .main-nav ul li:first-child a {
-    color: #fff;
+    color: #000;
 }
 
 .main-nav a {
@@ -76,3 +96,173 @@ img {
 
 
 
+
+.background-section {
+    width: 100%;
+    height: 70vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+
+
+
+.section-description {
+    background-color: #56DBB1;
+}
+
+.section-description .container {
+    padding: 4em;
+}
+
+.section-description .container p {
+    text-align: center;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+
+
+
+
+.section-columns {
+    background-color: #353434;
+}
+
+.section-columns .container {
+    padding: 6em;
+    text-align: center;
+
+}
+
+.section-columns .section-content {
+    display: flex;
+   
+}
+
+.section-columns .section-content article {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 30px;
+}
+
+.section-columns h4 {
+    color: #fff;
+}
+
+.section-columns p {
+    color: #5B5956;
+}
+
+.section-icons .icons i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.section-icons .icons p {
+    background-color: #56DBB1;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.icons {
+    margin-bottom: 1.5em;
+}
+
+.section-icons h4 {
+    font-size: 14px;
+}
+
+.section-icons p {
+    font-size: 12px;
+}
+
+.section-columns span {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    height: 2.1px;
+    background-color: #9A9A9A;
+}
+
+
+
+
+.hero-section .container {
+    text-align: center;
+    padding: 5em;
+    line-height: 1.2;
+}
+
+.hero-section .container h2 {
+    color: #5F5F5F;
+    font-size: 28px;
+    margin: 0 auto;
+}
+
+.hero-section .container p {
+    color: #C3BCB8;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.hero-section .button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.button-local {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 9.5px;
+    color: #fff;
+    background-color: #974D1B;
+    padding: 1.5em 2.7em;
+    letter-spacing: 0.3em;
+}
+
+
+
+
+
+
+
+.section-end h4 {
+    font-size: 20px;
+    padding-bottom: 1em;
+}
+
+.section-end p {
+    font-size: 12px;
+}
+
+
+.section-footer {
+    background-color: #1B9772;
+}
+
+.section-footer .container {
+    padding: 4em;
+}
+
+.section-footer .container p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color: #56DBB1;
+}
+
+.section-footer .container span {
+    color: #fff;
+}
