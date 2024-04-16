@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="signup-form">
+        <div class="container">
+              <div class="buttons">
+            <button type="button" class="btn active">Sign Up</button>
+            <button type="button" class="btn">Log In</button>
+        </div>
+        <h2>Sign Up for Free</h2>
+        <form action="/submit-your-form-handler" method="post">
+            <div class="form-row">
+                <label class="form-group">
+                    <input type="text" id="first-name" placeholder="First Name*" required>
+                </label>
+                <label class="form-group">
+                    <input type="text" id="last-name" placeholder="Last Name*" required>
+                </label>
+            </div>
+            <label class="form-group full">
+                <input type="email" id="email" placeholder="Email Address*" required>
+            </label>
+            <label class="form-group full">
+                <input type="password" id="password" placeholder="Set A Password*" required>
+            </label>
+            <button type="submit" class="submit-btn">GET STARTED</button>
+        </form>
+        </div>
+      
+    </div>
+
+</body>
+
+</html>

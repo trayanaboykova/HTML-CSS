@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size:contain;
+    background-position: center -175px;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* padding-left: 4em;
+    padding-right: 4em; */
+}
+
+
+
+
+
+
+
+
+.section-header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+
+.main-nav {
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-nav ul {
+    display: flex;
+    font-size: 18px;
+}
+
+.main-nav li {
+    list-style: none outside;
+    padding: 0 0.5em;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.logo a {
+    display: block;
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.section-hero-banner {
+    color: #000;
+    font-size: 1.2em;
+}
+
+.section-hero-banner a {
+    color: #000;
+}
+
+.section-hero-banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 2em;
+    height: 32em;
+}
+
+.section-hero-banner h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    
+}
+
+.section-hero-banner .container p {
+    text-align: center;
+    margin: 1em 0 ;
+}
+
+.section-hero-banner .container a {
+   display: block;
+   text-decoration: none;
+   background: #fff;
+   color: #000;
+   padding: 0.5em 1.2em;
+   border-radius: 0.3em;
+}
+
+
+
+
+
+
+
+
+.section-first-row {
+    display: flex;
+    background-color: #60ACC1;
+    padding: 60px;
+}
+
+.section-first-row .container {
+    text-align: center;
+}
+
+.row-content {
+    display: flex;
+    gap: 10em;
+}
+
+.headline-section {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.section-first-row article {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 30%;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.section-first-row article h3,
+.section-first-row article p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.section-first-row .media img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.section-second-row {
+    display: flex;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.section-second-row .container {
+    text-align: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    gap: 10em;
+}
+
+.section-second-row article {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    text-align: center;
+}
+
+.section-second-row article h3,
+.section-second-row article p {
+    text-align: center;
+    align-items: center;
+}
+
+.section-second-row .media img {
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section-second-row .media {
+    padding-bottom: 2em;
+}
+
+
+
+
+
+
+.section-third-row {
+    display: flex;
+    background-color: #60ACC1;
+    padding: 60px;
+}
+
+.content {
+    display: flex;
+    gap: 10em;
+}
+
+.section-third-row .headline-section h3 {
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-third-row .headline-section p{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+    font-style: italic;
+}
+
+.section-third-row .media img {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.section-about {
+    background-color: #fff;
+}
+
+.section-about .headline h3 {
+    align-items: center;
+    text-align: center;
+}
+
+.section-about .headline p {
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.section-about p {
+    text-align: center;
+    padding: 2em;
+}
+
+
+
+
+
+
+.section-footer {
+    background-color: #2D333C;
+}
+
+.section-footer .container {
+    text-align: center;
+}
+
+.section-footer p {
+    color: #fff;
+    padding: 1em;
+}
