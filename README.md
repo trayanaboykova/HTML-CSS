@@ -21,7 +21,7 @@ I explored CSS Grid and its capabilities for layout design. I studied different 
 **[Flexbox](https://github.com/trayanaboykova/HTML-CSS/tree/main/HTML%20%26%20CSS/07-flexbox)**: <br>
 I gained a comprehensive understanding of Flexbox. I studied properties for the parent (container) elements and explored properties for the children (items) within a Flexbox container. This knowledge allowed me to create flexible and efficient layouts that adapt to different screen sizes and orientations.
 
-**[Responsive Desing and Media Queries](https://github.com/trayanaboykova/HTML-CSS/tree/main/HTML%20%26%20CSS/08-responsive-and-media-queries)**: <br>
+**[Responsive Design and Media Queries](https://github.com/trayanaboykova/HTML-CSS/tree/main/HTML%20%26%20CSS/08-responsive-and-media-queries)**: <br>
 In this section, I learned the principles of responsive web design. I practiced using media queries to adapt layouts for different devices. I understood various media types and their applications. I studied media feature rules and media queries conditions to enhance responsiveness. This training equipped me to build websites that provide a great user experience across all devices.
 
 In this HTML & CSS course, I've covered the basics of web development, focusing on HTML structure, CSS styling, and responsive design. I explored advanced topics like the CSS box model, positioning, Flexbox, and media queries. This comprehensive training has equipped me to design, manage, and optimize web pages for real-world applications.
