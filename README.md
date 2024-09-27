@@ -24,7 +24,7 @@ I gained a comprehensive understanding of Flexbox. I studied properties for the 
 **[Responsive Design and Media Queries](https://github.com/trayanaboykova/HTML-CSS/tree/main/HTML%20%26%20CSS/08-responsive-and-media-queries)**: <br>
 In this section, I learned the principles of responsive web design. I practiced using media queries to adapt layouts for different devices. I understood various media types and their applications. I studied media feature rules and media queries conditions to enhance responsiveness. This training equipped me to build websites that provide a great user experience across all devices.
 
-In this HTML & CSS course, I've covered the basics of web development, focusing on HTML structure, CSS styling, and responsive design. I explored advanced topics like the CSS box model, positioning, Flexbox, and media queries. This comprehensive training has equipped me to design, manage, and optimize web pages for real-world applications.
+*In this [HTML & CSS Course](https://softuni.bg/trainings/4361/html-and-css-january-2024#lesson-64762), I've covered the basics of web development, focusing on HTML structure, CSS styling, and responsive design. I explored advanced topics like the CSS box model, positioning, Flexbox, and media queries. This comprehensive training has equipped me to design, manage, and optimize web pages for real-world applications.*
 
 # Certificate
 <a href="https://softuni.bg/certificates/details/213535/8bbbb500" rel="nofollow"><img src="https://github.com/trayanaboykova/readme/assets/101351760/0a7b4357-a22b-479d-b459-763ae67c297a" alt="HTML&CSS"></a>
