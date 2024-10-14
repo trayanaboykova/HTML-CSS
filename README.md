@@ -1,5 +1,5 @@
 # HTML-CSS
-Tasks from my course HTML & CSS at <a href="www.softuni.bg">SoftUni</a> 
+Tasks from my course HTML & CSS at <a href="https://softuni.bg/">SoftUni</a> 
 
 <b> Course Curriculum: HTML & CSS </b>
 
