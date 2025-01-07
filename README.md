@@ -1,7 +1,7 @@
 # HTML-CSS
 Tasks from my course HTML & CSS at <a href="https://softuni.bg/">SoftUni</a> 
 
-<b> Course Curriculum: HTML & CSS </b>
+<b> Course Curriculum: [HTML & CSS Course](https://softuni.bg/trainings/4361/html-and-css-january-2024#lesson-64762) </b>
 
 **[Introduction to HTML & CSS](https://github.com/trayanaboykova/HTML-CSS/tree/main/HTML%20%26%20CSS/01-html-introduction)**: <br>
 In this section, I learned the foundational concepts of HTML and CSS. I delved into what HTML is and how to create an HTML page. I explored common HTML elements such as headings, paragraphs, lists, images, and links. Additionally, I familiarized myself with HTML terminology, including tags and attributes. I discovered what CSS is and how to combine HTML and CSS files. I also studied the difference between inline and block elements, enhancing my understanding of web page structure.
